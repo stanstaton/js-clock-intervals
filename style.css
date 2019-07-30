@@ -4,11 +4,30 @@
 #clock img {
 }
 
+#face {
+	z-index: 0;
+	position: absolute;
+}
+
 #hour {
+	z-index: 10;
+	position: absolute;
+/*	float: left;*/
 }
 
 #minute {
+	z-index: 15;
+	position: absolute;
+/*	float: left;*/
 }
 
 #second {
+	z-index: 20;
+	position: absolute;
+/*	float: left;*/
+}
+
+.hands {
+	display: flex;
+	justify-content: flex-start;
 }
